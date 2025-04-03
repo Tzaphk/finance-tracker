@@ -1,0 +1,104 @@
+/* Global Dark Theme */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #ffcc00;
+}
+
+/* Form Styling */
+.transaction-form input,
+.transaction-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+.transaction-form .button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-form button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Summary Section */
+.summary {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.summary p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.summary p strong {
+  font-weight: bold;
+}
+
+.summary p:first-child {
+  font-size: 22px;
+}
+
+/* Transaction List */
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background: #2a2a2a;
+  border-radius: 5px;
+}
+
+.transaction-item.income {
+  border-left: 5px solid #28a745;
+}
+
+.transaction-item.expense {
+  border-left: 5px solid #dc3545;
+}
